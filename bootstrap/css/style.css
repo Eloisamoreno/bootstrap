@@ -1,0 +1,33 @@
+
+.line-profile{
+    width: 86px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);  
+}
+
+.line{
+    width: 86px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);  
+}
+
+/* modal */
+
+.jobs-item {
+    position: relative;
+}
+
+.jobs-item:hover:before {
+    background: #a68eb391;
+    content: "+";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 133px;
+    color: #fff;
+    pointer-events: none;
+}
+

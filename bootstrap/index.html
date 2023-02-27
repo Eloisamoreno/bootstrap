@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <!-- hoja estilos bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="../bootstrap/css/style.css">
+  <!-- link fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  
+</head>
+
+
+<body>
+  <header>
+    <div class="row">
+      <nav class="col-sm-12">
+        <nav class=" navbar navbar-expand-lg bg-body-tertiary" style="background-color:rgb(118, 79, 130)!important">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">ELOÍSA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=" navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-white" aria-current="page" href="#">PORFOLIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-white" aria-current="page" href="#">SOBRE MÍ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-white" aria-current="page" href="#">CONTACTO</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </nav>
+    </div>
+  </header>
+  
+  
+  <main class="container-fluid">
+    
+    <section class="row justify-content-center p-5 text-white" style="background-color:rgb(178, 156, 190)">
+      
+      <!-- imagen de portada -->
+      
+      <figure class="figure col-6 col-sm-4 col-md-3 col-lg-2 text-center avatar position-relative py-6 px-6">
+        <img src="../bootstrap/Maquetacion_Bootstrap/img/avataaars.svg" class="figure-img img-fluid rounded" alt="...">
+      </figure>
+      
+      <!-- TÍTULO Y decoración lineas y estrella -->
+      <h1 class="col-12  mt-4 d-flex justify-content-center align-items-center">ELOÍSA MORENO</h1>
+      <div>
+        <div class="d-flex justify-content-center align-items-center">
+          <span class="line-profile"></span>
+          <i class="fa-solid fa-star d-flex px-3"></i>
+          <span class="line-profile"></span>
+        </div>
+      </div>
+      <h6 class="col-12 d-flex justify-content-center align-items-center py-3">Diseñadora UX/UI - Maquetadora Web </h6>
+    </section>
+    
+    
+    
+    <!-- segunda section trabajos portfolio -->
+    
+    <section>
+      <div class="row">
+        <h3 class="col-12 d-flex justify-content-center align-items-center mt-5">PORTFOLIO</h3>
+        <div class="d-flex justify-content-center align-items-center">
+          <span class="line"></span>
+          <i class="fa-solid fa-star d-flex px-3"></i>
+          <span class="line"></span>
+        </div>
+      </div>
+      
+      
+      <!-- contenido de imagénes -->
+      
+      <article>
+        <div class="jobs-wrap d-flex flex-wrap col-12 p-5">
+          <div class="jobs-item col-12 col-md-6 col-lg-4">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#ModalLemonPie" class="bg-transparent border border-0">
+              <img class=" w-100 h-auto" src="../bootstrap/Maquetacion_Bootstrap/img/lemon-pie.jpeg" alt="">
+              <h6 class="fw-bold">Lemon Pie</h6>
+            </button>
+          </div>
+          
+          <div class="jobs-item col-12 col-md-6 col-lg-4">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#ModalCvBatman" class="bg-transparent border border-0">
+              <img class=" w-100 h-auto" src="../bootstrap/Maquetacion_Bootstrap/img/CVBatman.png" alt="">
+              <h6 class="fw-bold">CV Batman</h6>
+            </button>
+          </div>
+          
+          <div class="jobs-item col-12 col-md-6 col-lg-4">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#ModalSupers" class="bg-transparent border border-0">
+              <img class=" w-100 h-auto" src="../bootstrap/Maquetacion_Bootstrap/img/super.png" alt="">
+              <h6 class="fw-bold">Supers</h6>
+            </button>
+          </div>
+          
+          <div class="jobs-item col-12 col-md-6 col-lg-4">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#ModalPetShop" class="bg-transparent border border-0">
+              <img class=" w-100 h-auto" src="../bootstrap/Maquetacion_Bootstrap/img/petshop.jpeg" alt="">
+              <h6 class="fw-bold">Pet Shop</h6>
+            </button>
+          </div>
+          
+          <div class="jobs-item col-12 col-md-6 col-lg-4">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#ModalPizzeria" class="bg-transparent border border-0">
+              <img class=" w-100 h-auto" src="../bootstrap/Maquetacion_Bootstrap/img/piza.jpeg" alt="">
+              <h6 class="fw-bold">Pizzería</h6>
+            </button>
+          </div>
+          
+          <div class="jobs-item col-12 col-md-6 col-lg-4">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#ModalGameShop" class="bg-transparent border border-0">
+              <img class=" w-100 h-auto" src="../bootstrap/Maquetacion_Bootstrap/img/gameshop.jpeg" alt="">
+              <h6 class="fw-bold">Pet Shop</h6>
+            </button>
+          </div> 
+          
+        </div> 
+      </article>
+    </section>
+    
+    
+    
+    <!-- terecera section sobre mí -->
+    
+    <section class="row justify-content-center text-white" style="background-color:rgb(178, 156, 190)">
+      <div class="row justify-content-center">
+        <h3 class="col-12 mt-5 d-flex justify-content-center align-items-center">SOBRE MÍ</h3>
+
+        <div class="d-flex justify-content-center align-items-center">
+          <span class="line-profile"></span>
+          <i class="fa-solid fa-star d-flex px-3"></i>
+          <span class="line-profile"></span>
+        </div>
+      </div>
+      
+      <article class="row justify-content-center mt-5 mb-3">
+        <p class="col-10 col-lg-5 text-white px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis officia consequatur libero repudiandae doloribus adipisci maiores nisi, delectus ea blanditiis corrupti itaque soluta quam sint?</p>
+        <p class="col-10 col-lg-5 text-white px-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium distinctio a repellendus incidunt cumque, dicta impedit totam, animi repudiandae accusantium, minus quam asperiores quod molestias.</p>
+      </article>
+      
+      <div class="container row justify-content-center section-color">
+        <button class="btn btn-outline-light w-25  mb-5">
+          <i class="icon-button fa-solid fa-arrows-down-to-line px-2"></i>Descargar CV
+        </button>
+      </div>
+    </section>
+    
+    
+    <!-- cuarta section, contáctame -->
+    
+    <section class="row p-5 bg-white">
+      <div class="row">
+        
+        <h3 class="col-12 d-flex justify-content-center align-items-center ">CONTÁCTAME</h3>
+        <div class="d-flex justify-content-center align-items-center mb-5">
+          <span class="line"></span>
+          <i class="fa-solid fa-star d-flex px-3"></i>
+          <span class="line"></span>
+        </div>
+        
+        <!-- formulario -->
+        
+        <div class="container d-flex justify-content-center">
+          <form class="col col-sm-12 col-md-12 col-lg-8 col-xl-8">
+            
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput1" placeholder="name@example.com">
+              <label for="floatingInput">Nombre completo</label>
+            </div>
+            
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" id="floatingPassword2" placeholder="Password">
+              <label for="floatingPassword">Email</label>
+            </div>
+            
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" id="floatingPassword3" placeholder="Password">
+              <label for="floatingPassword">Número de teléfono</label>
+            </div>
+            
+            <div class="form-floating mb-3">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea4" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Comments</label>
+            </div>
+            
+            <button type="button" class="btn text-white" style="background-color:rgb(178, 156, 190)">Send</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    
+    <!-- footer con info -->
+    
+    <footer class="row d-flex p-5 d-flex justify-content-around text-center text-white" style="background-color: #53687e;">
+      
+      <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  d-flex flex-column align-item-center py-3"> 
+        <h3>MI LUGAR</h3>
+        <p>Calle nº2 <br>
+          Madrid,España 28567
+        </p>
+      </div>
+      
+      <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  py-3">
+        <h3>SIGAMOS CONECTADOS</h3>
+        <div>
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-square-github"></i>
+        </div>
+      </div>
+      
+      <div class="col-sm-8 col-md-6 col-lg-3 col-xl-3 col-xxl-3  py-3">
+        <h3>SOBRE MÍ</h3>
+        <p>Soy una persona creativa y con ansia de aprender. Tengo conocimientos de HTML, CSS y Bootstrap.</p>
+      </div>
+      
+    </footer>
+    
+    <div class="row bg-dark">
+      <p class="col text-center p-3 text-white">@copyright</p>
+    </div>
+    
+    
+  </main>
+  
+  
+  
+  <!-- Modal 1-->
+  <div class="modal fade" id="ModalLemonPie" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <div class="modal-body">
+          <h2 class="d-flex justify-content-center">LEMON PIE</h2>
+          <div class="d-flex justify-content-center align-items-center">
+            <span class="line"></span>
+            <i class="fa-solid fa-star d-flex px-3"></i>
+            <span class="line"></span>
+          </div>
+          <img src="../bootstrap/Maquetacion_Bootstrap/img/lemon-pie.jpeg" class="w-100 h-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat provident magni beatae cumque blanditiis dicta ipsa quam voluptas reiciendis dolores.</p>
+        </div>
+        
+        <div class="modal-footer d-flex justify-content-center">
+          <button type="button" class="btn btn-primary border border-0" style="background-color:rgb(178, 156, 190)">Visitar el sitio</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- modal 2 -->
+  
+  <div class="modal fade" id="ModalCvBatman" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <div class="modal-body">
+          <h2 class="d-flex justify-content-center">CV BATMAN</h2>
+          <div class="d-flex justify-content-center align-items-center">
+            <span class="line"></span>
+            <i class="fa-solid fa-star d-flex px-3"></i>
+            <span class="line"></span>
+          </div>
+          <img src="../bootstrap/Maquetacion_Bootstrap/img/CVBatman.png"  class="w-100 h-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat provident magni beatae cumque blanditiis dicta ipsa quam voluptas reiciendis dolores.</p>
+        </div>
+        
+        <div class="modal-footer d-flex justify-content-center">
+          <button type="button" class="btn btn-primary border border-0" style="background-color:rgb(178, 156, 190)">Visitar el sitio</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- modal 3 -->
+  
+  <div class="modal fade" id="ModalSupers" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <div class="modal-body">
+          <h2 class="d-flex justify-content-center">SÚPERS</h2>
+          <div class="d-flex justify-content-center align-items-center">
+            <span class="line"></span>
+            <i class="fa-solid fa-star d-flex px-3"></i>
+            <span class="line"></span>
+          </div>
+          <img src="../bootstrap/Maquetacion_Bootstrap/img/super.png"  class="w-100 h-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat provident magni beatae cumque blanditiis dicta ipsa quam voluptas reiciendis dolores.</p>
+        </div>
+        
+        <div class="modal-footer d-flex justify-content-center">
+          <button type="button" class="btn btn-primary border border-0" style="background-color:rgb(178, 156, 190)">Visitar el sitio</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- modal 4 -->
+  
+  <div class="modal fade" id="ModalPetShop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <div class="modal-body">
+          <h2 class="d-flex justify-content-center">PET SHOP</h2>
+          <div class="d-flex justify-content-center align-items-center">
+            <span class="line"></span>
+            <i class="fa-solid fa-star d-flex px-3"></i>
+            <span class="line"></span>
+          </div>
+          <img src="../bootstrap/Maquetacion_Bootstrap/img/petshop.jpeg"  class="w-100 h-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat provident magni beatae cumque blanditiis dicta ipsa quam voluptas reiciendis dolores.</p>
+        </div>
+        
+        <div class="modal-footer d-flex justify-content-center">
+          <button type="button" class="btn btn-primary border border-0" style="background-color:rgb(178, 156, 190)">Visitar el sitio</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- modal 5 -->
+  
+  <div class="modal fade" id="ModalPizzeria" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <div class="modal-body">
+          <h2 class="d-flex justify-content-center">PIZZERÍA</h2>
+          <div class="d-flex justify-content-center align-items-center">
+            <span class="line"></span>
+            <i class="fa-solid fa-star d-flex px-3"></i>
+            <span class="line"></span>
+          </div>
+          <img src="../bootstrap/Maquetacion_Bootstrap/img/piza.jpeg"  class="w-100 h-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat provident magni beatae cumque blanditiis dicta ipsa quam voluptas reiciendis dolores.</p>
+        </div>
+        
+        <div class="modal-footer d-flex justify-content-center">
+          <button type="button" class="btn btn-primary border border-0" style="background-color:rgb(178, 156, 190)">Visitar el sitio</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- modal 6 -->
+  
+  <div class="modal fade" id="ModalGameShop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <div class="modal-body">
+          <h2 class="d-flex justify-content-center">CV BATMAN</h2>
+          <div class="d-flex justify-content-center align-items-center">
+            <span class="line"></span>
+            <i class="fa-solid fa-star d-flex px-3"></i>
+            <span class="line"></span>
+          </div>
+          <img src="../bootstrap/Maquetacion_Bootstrap/img/gameshop.jpeg"  class="w-100 h-100" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat provident magni beatae cumque blanditiis dicta ipsa quam voluptas reiciendis dolores.</p>
+        </div>
+        
+        <div class="modal-footer d-flex justify-content-center">
+          <button type="button" class="btn btn-primaryborder border-0" style="background-color:rgb(178, 156, 190)">Visitar el sitio</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"> -->
